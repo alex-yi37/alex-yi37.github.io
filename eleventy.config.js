@@ -18,6 +18,8 @@ export default async function (eleventyConfig) {
 			data.title = `${data.title} (draft)`;
 		}
 
+		// this line makes it so that draft posts aren't included in the final build, only when developing locally
+		// this is done by looking for the "draft" data in the template
 		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
 		}
