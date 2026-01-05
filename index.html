@@ -306,24 +306,6 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
-}
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
-
-	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
 }</style>
 		
 	</head>
@@ -345,21 +327,9 @@ header {
 
 		<main id="main">
 			<heading-anchors>
-				<!-- Delete this block, which will also remove the component CSS from the bundle -->
-
-<div class="message-box">
-	<ol>
-		<li>Hello edit <code>_data/metadata.js</code> with your blog’s information.</li>
-		<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-		<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
-	</ol>
-	<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-</div>
-<!-- Stop deleting -->
+				
 
 
-
-<h1 id="latest-3-posts">Latest 3 Posts</h1>
 
 
 
@@ -376,12 +346,14 @@ header {
 		<a href="/blog/secondpost/" class="postlist-link">This is my second post with a much longer title.</a>
 		<time class="postlist-date" datetime="2018-07-04">July 2018</time>
 	</li>
+	<li class="postlist-item">
+		<a href="/blog/firstpost/" class="postlist-link">This is my first post.</a>
+		<time class="postlist-date" datetime="2018-05-01">May 2018</time>
+	</li>
 </ol>
 
 
 
-
-<p>1 more post can be found in <a href="/blog/">the archive</a>.</p>
 
 
 
@@ -397,7 +369,7 @@ header {
 			</p>
 		</footer>
 
-		<!-- This page `/` was built on 2026-01-05T01:07:24.583Z -->
+		<!-- This page `/` was built on 2026-01-05T22:25:57.290Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
