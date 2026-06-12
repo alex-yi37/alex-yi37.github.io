@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged &#39;system-design&#39;</title>
+		<title>Recently</title>
 		<meta name="description" content="Trying to start blogging">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Alex&#39;s blog">
 		
@@ -312,6 +312,174 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }</style>
 		
 	</head>
@@ -334,19 +502,23 @@ header {
 		<main id="main">
 			<heading-anchors>
 				
-<h1 id="tagged-system-design">Tagged “system-design”</h1>
 
 
-<ol reversed="" class="postlist" style="--postlist-index: 2">
-	<li class="postlist-item">
-		<a href="/blog/ddia-read-through-first-post/" class="postlist-link">Recording my &quot;Designing Data Intensive Applications&quot; read through</a>
-		<time class="postlist-date" datetime="2026-01-13">January 2026</time>
-	</li>
-</ol>
+<h1 id="recently">Recently</h1>
 
+<ul class="post-metadata">
+	<li><time datetime="2026-06-12">12 June 2026</time></li>
+	<li><a href="/tags/real-life/" class="post-tag">real-life</a></li>
+</ul>
 
-<p>See <a href="/tags/">all tags</a>.</p>
+<p>I'm moving to Japan, specifically Tokyo, with my partner in mid June of this year to attend japanese language school. There's been a lot of lead up to this point, and it finally feels like it's going to happen this time. We actually tried moving in October 2025 but a family emergency happened right as we were about to depart and we had to put everything on hold until now. Compared to last year, I might not be feeling as optimistic for the experience given everything that has changed (death of a loved one, way less savings going into this move compared to last year, the current political climate in the world, the perceived political climate in Japan as of now, etc) but I'm still really excited, and a bit aprehensive. It still feels exciting to make the move, and I hope I can make the most of the experience. Doing things that are outside my comfort zone like talking to people more, trying to be more proactive with planning, etc are all goals of mine going into this.</p>
+<h2 id="what-do-i-hope-to-do-with-this-blog">What do I hope to do with this blog?</h2>
+<p>One reason I started this blog was to have a place to record my thoughts while reading <a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/">Designing Data-Intensive Applications</a> for the first time, but after trying to get through it steadily, I realize it's probably a little too dense for me to read <em>and</em> write about at the same time; I'm very stop and go with the progress. I'd still like to highlight certain topics that I think are of interest to me, or that I think I can write meaningfully about, but realistically I'm probably not going to be blogging about it for the time being. It really is hard for me to follow in a lot of sections, but still an interesting read.</p>
+<p>Actually, my initial motivation for starting to blog was from reading <a href="https://mastodon.social/@tmcw">Tom MacWright's</a> <a href="https://macwright.com/">blog</a> for a few years now. The topics he writes about are interesting and a breath of fresh air in the current tech climate that really hypes up AI generated code and software development, and the way that he writes appeals to me in a way that I don't think I can describe at the moment. As for the title of this post, it also comes from how he schedules his writing. In <a href="https://macwright.com/2019/02/06/how-to-blog">this post</a> he talks about writing catch up posts on a regular cadence, something which I'd like to get into the habit of.</p>
+<p>Beyond just having a place to practice writing, though, I'd like this blog to become something that lets my family know how I'm doing on the other side of the world. I think communicating over texts is alright and has its place, but for me at least it seems like a medium where things can get muddled and where I feel a bit rushed to respond. Whereas with this blog, I can take my time to get my thoughts out. It'd also be neat to to try writing and recording notes on my japanese learning progress, but we'll see how that.</p>
 
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/ddia-read-through-first-post/">Recording my &quot;Designing Data Intensive Applications&quot; read through</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
@@ -357,7 +529,7 @@ header {
 			</p>
 		</footer>
 
-		<!-- This page `/tags/system-design/` was built on 2026-06-12T21:34:56.352Z -->
+		<!-- This page `/blog/recently-june-12-2026/` was built on 2026-06-12T21:34:56.353Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

@@ -5,11 +5,23 @@
   <subtitle>The start of the blog</subtitle>
   <link href="https://alex-yi37.github.io/feed/feed.xml" rel="self" />
   <link href="https://alex-yi37.github.io/" />
-  <updated>2026-01-13T00:00:00Z</updated>
+  <updated>2026-06-12T00:00:00Z</updated>
   <id>https://alex-yi37.github.io/</id>
   <author>
     <name>Alex Yi</name>
   </author>
+  <entry>
+    <title>Recently</title>
+    <link href="https://alex-yi37.github.io/blog/recently-june-12-2026/" />
+    <updated>2026-06-12T00:00:00Z</updated>
+    <id>https://alex-yi37.github.io/blog/recently-june-12-2026/</id>
+    <content type="html">&lt;p&gt;I&#39;m moving to Japan, specifically Tokyo, with my partner in mid June of this year to attend japanese language school. There&#39;s been a lot of lead up to this point, and it finally feels like it&#39;s going to happen this time. We actually tried moving in October 2025 but a family emergency happened right as we were about to depart and we had to put everything on hold until now. Compared to last year, I might not be feeling as optimistic for the experience given everything that has changed (death of a loved one, way less savings going into this move compared to last year, the current political climate in the world, the perceived political climate in Japan as of now, etc) but I&#39;m still really excited, and a bit aprehensive. It still feels exciting to make the move, and I hope I can make the most of the experience. Doing things that are outside my comfort zone like talking to people more, trying to be more proactive with planning, etc are all goals of mine going into this.&lt;/p&gt;
+&lt;h2 id=&quot;what-do-i-hope-to-do-with-this-blog&quot;&gt;What do I hope to do with this blog?&lt;/h2&gt;
+&lt;p&gt;One reason I started this blog was to have a place to record my thoughts while reading &lt;a href=&quot;https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/&quot;&gt;Designing Data-Intensive Applications&lt;/a&gt; for the first time, but after trying to get through it steadily, I realize it&#39;s probably a little too dense for me to read &lt;em&gt;and&lt;/em&gt; write about at the same time; I&#39;m very stop and go with the progress. I&#39;d still like to highlight certain topics that I think are of interest to me, or that I think I can write meaningfully about, but realistically I&#39;m probably not going to be blogging about it for the time being. It really is hard for me to follow in a lot of sections, but still an interesting read.&lt;/p&gt;
+&lt;p&gt;Actually, my initial motivation for starting to blog was from reading &lt;a href=&quot;https://mastodon.social/@tmcw&quot;&gt;Tom MacWright&#39;s&lt;/a&gt; &lt;a href=&quot;https://macwright.com/&quot;&gt;blog&lt;/a&gt; for a few years now. The topics he writes about are interesting and a breath of fresh air in the current tech climate that really hypes up AI generated code and software development, and the way that he writes appeals to me in a way that I don&#39;t think I can describe at the moment. As for the title of this post, it also comes from how he schedules his writing. In &lt;a href=&quot;https://macwright.com/2019/02/06/how-to-blog&quot;&gt;this post&lt;/a&gt; he talks about writing catch up posts on a regular cadence, something which I&#39;d like to get into the habit of.&lt;/p&gt;
+&lt;p&gt;Beyond just having a place to practice writing, though, I&#39;d like this blog to become something that lets my family know how I&#39;m doing on the other side of the world. I think communicating over texts is alright and has its place, but for me at least it seems like a medium where things can get muddled and where I feel a bit rushed to respond. Whereas with this blog, I can take my time to get my thoughts out. It&#39;d also be neat to to try writing and recording notes on my japanese learning progress, but we&#39;ll see how that.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Recording my &quot;Designing Data Intensive Applications&quot; read through</title>
     <link href="https://alex-yi37.github.io/blog/ddia-read-through-first-post/" />
